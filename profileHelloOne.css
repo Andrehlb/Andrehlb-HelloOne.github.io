@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.logo-oracle,
+.logo-alura {
+  max-width: 150px;
+  height: auto;
+  display: inline-block;
+  vertical align: middle;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul {
+  padding: 0;
+  list-styl-type: none;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
