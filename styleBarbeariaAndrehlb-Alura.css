@@ -7,6 +7,10 @@ body {
     padding: 30px;
 }
 
+.titulo-principal {
+    padding-left: 20px;
+}
+
 .itens {
     font-style: italic;
 }
@@ -14,6 +18,9 @@ body {
 .beneficios {
     background: #FFFFFF;
     padding: 20px;
+}
+.tituloBeneficios-centralizado {
+    text-align: center
 }
 
 h2 {
