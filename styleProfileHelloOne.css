@@ -1,8 +1,13 @@
 body {
   font-family: Arial, sans-serif;
+  background: #CCCCCC;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+}
+
+#banner {
+  width: 100%;
 }
 
 header {
@@ -19,9 +24,20 @@ header {
 }
 
 h1 {
+  text-align: center;
   display: inline-block;
   margin-left: 20px;
 }
+p {
+  text-align: center;
+}
+
+#missão {
+  font-size: 20px;
+}
+
+em strong {
+  color: #FF0000;
 
 nav ul {
   padding: 0;
