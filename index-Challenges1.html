@@ -1,1 +1,86 @@
-# challenges 1
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Criptografia Personalizada</title>
+</head>
+<body>
+    <h1>Criptografia Personalizada</h1>
+    <label for="inputText">Texto:</label>
+    <input type="text" id="inputText">
+    <br>
+    <input type="radio" id="encrypt" name="action" value="encrypt" checked>
+    <label for="encrypt">Criptografar</label>
+    <input type="radio" id="decrypt" name="action" value="decrypt">
+    <label for="decrypt">Descriptografar</label>
+    <br>
+    <button onclick="processText()">Processar</button>
+    <button onclick="copyToClipboard()">Copiar</button>
+    <h2>Resultado:</h2>
+    <p id="outputText"></p>
+    <script>
+        function processText() {
+            const inputText = document.getElementById('inputText').value;
+            const action = document.querySelector('input[name="action"]:checked').value;
+            let outputText = '';
+
+            if (action === 'encrypt') {
+                outputText = encrypt(inputText);
+            } else {
+                outputText = decrypt(inputText);
+            }
+
+            document.getElementById('outputText').innerHTML = outputText;
+        }
+
+        function encrypt(text) {
+            const map = {
+                'e': 'enter',
+                'i': 'imes',
+                'a': 'ai',
+                'o': 'ober',
+                'u': 'ufat'
+            };
+            let encrypted = '';
+
+            for (let char of text) {
+                if (map[char]) {
+                    encrypted += map[char];
+                } else {
+                    encrypted += char;
+                }
+            }
+
+            return encrypted;
+        }
+
+        function decrypt(text) {
+            const map = {
+                'enter': 'e',
+                'imes': 'i',
+                'ai': 'a',
+                'ober': 'o',
+                'ufat': 'u'
+            };
+            let decrypted = text;
+
+            for (let key in map) {
+                decrypted = decrypted.split(key).join(map[key]);
+            }
+
+            return decrypted;
+        }
+
+        function copyToClipboard() {
+            const el = document.createElement('textarea');
+            el.value = document.getElementById('outputText').innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            alert('Texto copiado para a área de transferência!');
+        }
+    </script>
+</body>
+</html>
+
