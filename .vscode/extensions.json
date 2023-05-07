@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "mutable-ai.mutable-ai"
+        "mutable-ai.mutable-ai",
+        "negokaz.live-server-preview"
     ]
 }
