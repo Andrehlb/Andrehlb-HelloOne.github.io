@@ -139,7 +139,7 @@
 
         function copyToClipboard() {
             const el = document.createElement('textarea');
-            el.value = document.getElementById('outputText').innerText;
+            el.value = document.getElementById('textarea2').innerText;
             document.body.appendChild(el);
             el.select();
             document.execCommand('copy');
