@@ -86,7 +86,7 @@
     <p id="outputText"></p>
     <script>
         function processText() {
-            const inputText = document.getElementById('inputText').value;
+            const inputText = document.getElementById('text-area-1').value;
             const action = document.querySelector('input[name="action"]:checked').value;
             let outputText = '';
 
@@ -96,7 +96,7 @@
                 outputText = decrypt(inputText);
             }
 
-            document.getElementById('outputText').innerHTML = outputText;
+            document.getElementById('textarea2').innerHTML = outputText;
         }
 
         function encrypt(text) {
