@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "mutable-ai.mutable-ai",
-        "negokaz.live-server-preview"
+        "negokaz.live-server-preview",
+        "ms-edgedevtools.vscode-edge-devtools"
     ]
 }
