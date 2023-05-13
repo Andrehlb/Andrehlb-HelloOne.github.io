@@ -1,12 +1,50 @@
 *{
-font-family: 'Inter', sans-serif;
-font-weight: 400;
-font-size: 32px;
-line-height: 150%;
+    background: #e5e5e5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area-1 {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+    .text-area-1:focus {
+        outline: none; 
+    }
+
+.text-area-2 {
+    border: none;
+    color: #0a3799;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0a3799; }
+    .text-area-2:focus {
+        outline: none; 
+    }
+
+
 body {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
