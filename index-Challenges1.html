@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
@@ -10,12 +11,12 @@
             margin: 0;
             padding: 0;
         }
-        
+
         header {
             text-align: center;
             padding: 20px;
         }
-        
+
         #header-image {
             max-width: 100%;
             height: auto;
@@ -23,7 +24,7 @@
 
         /* Estilo para as áreas de textos e botoões */
         textarea {
-/*            background-image: url('fundo.png'); */
+            /*            background-image: url('fundo.png'); */
             background-color: #f8f8f8;
             background-size: cover;
             padding: 10px;
@@ -49,44 +50,49 @@
             width: 100px;
             height: 50px;
         }
-        
+
         /* Estilo para dispositivo móvel */
         @media screen and (max-widht: 400px) {
-           /* Ajustar estilo para dispositivo móvel aqui */
+            /* Ajustar estilo para dispositivo móvel aqui */
         }
     </style>
 </head>
+
 <body>
     <header>
         <!-- <img class="logoAlura" src="https://github.com/Andrehlb/andrehlb-helloone.github.io/blob/main/assetsChallenge1/logoAlura_Vector.png?raw=true"> -->
-        <img class="logoAlura" src="https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/logoAlura_Vector.png" alt="Logo Alura">
+        <img class="logoAlura"
+            src="https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/logoAlura_Vector.png"
+            alt="Logo Alura">
     </header>
 
-<main>
-    <section>
-        <textarea id="text-area-1" name="text area" cols="41" rows="4" placeholder="Digite teu texto aqui..."></textarea>
-        <button id="botao1" onclick="processText()">Processar</button>
-    </section>
+    <main>
+        <section>
+            <textarea id="text-area-1" name="text area" cols="41" rows="4"
+                placeholder="Digite teu texto aqui..."></textarea>
+            <button id="botao1" onclick="processText()">Processar</button>
+        </section>
 
-    <section>
-        <textarea id="text-area-2" name="mensagens" cols="20" rows="10" placeholder="Digite teu texto aqui..."></textarea>
-        <button id="botao2" onclick="copyToClipboard()">Copiar</button>
-    </section>
+        <section>
+            <textarea id="text-area-2" name="mensagens" cols="20" rows="10"
+                placeholder="Digite teu texto aqui..."></textarea>
+            <button id="botao2" onclick="copyToClipboard()">Copiar</button>
+        </section>
 
-    <h1>Criptografia Personalizada</h1>
-<!--    <label for="inputText">Texto:</label>
+        <h1>Criptografia Personalizada</h1>
+        <!--    <label for="inputText">Texto:</label>
     <input type="text" id="inputText">
     <br> -->
-    <input type="radio" id="encrypt" name="action" value="encrypt" checked>
-    <label for="encrypt">Criptografar</label>
-    <input type="radio" id="decrypt" name="action" value="decrypt">
-    <label for="decrypt">Descriptografar</label>
-    <br>
-<!--    <button onclick="processText()">Processar</button>
+        <input type="radio" id="encrypt" name="action" value="encrypt" checked>
+        <label for="encrypt">Criptografar</label>
+        <input type="radio" id="decrypt" name="action" value="decrypt">
+        <label for="decrypt">Descriptografar</label>
+        <br>
+        <!--    <button onclick="processText()">Processar</button>
     <button onclick="copyToClipboard()">Copiar</button> -->
-    <h2>Resultado:</h2>
-    <p id="outputText"></p>
-</main>
+        <h2>Resultado:</h2>
+        <p id="outputText"></p>
+    </main>
 
     <script>
         function processText() {
@@ -152,4 +158,5 @@
         }
     </script>
 </body>
+
 </html>
