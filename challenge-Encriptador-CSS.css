@@ -73,25 +73,15 @@ main {
 .botao1 {
     display: flex;
     margin-left: 18px;
+    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Criptografar-blue.png');
+    background-size: cover;
 }
 
 .botao2 {
     display: flex;
     margin-left: 18px;
-}
-
-#botao1 {
-    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Criptografar-blue.png');
-    background-size: cover;
-    width: 100px;
-    height: 50px;
-}
-
-#botao2 {
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Descriptografar-preenchimento-transparente-contorno-azul.png');
     background-size: cover;
-    width: 100px;
-    height: 50px;
 }
 
 /*
