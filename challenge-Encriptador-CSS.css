@@ -20,7 +20,7 @@ main {
     margin-left: 80px;
 }
 
-#text-area-1, text-area-2 {
+#text-area-1, #text-area-2 {
     border: none;
     color: #0A3871;
     margin-top: 90px;
@@ -31,11 +31,11 @@ main {
     color: #0A3871; 
 }
 
-#text-area-1:focus, text-area-2:focus {
+#text-area-1:focus, #text-area-2:focus {
     outline: none; 
     }
 
-#text-area-2, .mensagem {
+#text-area-2 {
     background: white;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
     background-repeat: no-repeat;
@@ -44,33 +44,29 @@ main {
     color: #0A3871;
     margin-top: 20px;
     padding-left: 20px;
-    }
-
-.mensagem:focus {
-    outline: none; 
+    background-size: contain;
     }
 
 #botao1, #botao2 {
-    display: flex;
     margin-left: 18px;
     border: royalblue;
+    align-self: flex-end;
+    background-size: cover;
 }
 
 #botao1 {
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Encriptar-preenchimento-transparente-contorno-azul.png');
-    background-size: contain;
 }
 
 #botao2 {
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Descriptografar-preenchimento-transparente-contorno-azul.png');
-    background-size: cover;
 }
 
 .informacao {
     color: #495057;
     font-size: 18px;
 }
-  
+
 /* Estilo para dispositivo móvel */
 @media screen and (max-widht: 400px) {
     /* Ajustar estilo para dispositivo móvel aqui */
