@@ -71,5 +71,9 @@ main {
 
 /* Estilo para dispositivo móvel */
 @media screen and (max-widht: 400px) {
+    main {
+        flex-direction: column;
+        margin-left: 10;
+    }
     /* Ajustar estilo para dispositivo móvel aqui */
 }
