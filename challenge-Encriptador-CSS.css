@@ -45,7 +45,13 @@ main {
 .mensagem {
     background: white;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
     }
+
+
 /*
 body {
     font-family: Arial, sans-serif;
