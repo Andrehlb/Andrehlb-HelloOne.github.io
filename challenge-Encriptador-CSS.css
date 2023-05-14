@@ -14,35 +14,28 @@
 
 main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 50px;
     margin-left: 80px;
 }
 
-#text-area-1 {
+#text-area-1, text-area-2 {
     border: none;
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
-::placeholder { color: #0A3871; }
-    #text-area-1:focus {
-        outline: none; 
-    }
-
-#text-area-2 {
-    border: none;
-    color: #0a3871;
-    margin-top: 90px;
-    text-transform: lowercase;
+::placeholder { 
+    color: #0A3871; 
 }
 
-::placeholder { color: #0a3871; }
-    #text-area-2:focus {
-        outline: none; 
+#text-area-1:focus, text-area-2:focus {
+    outline: none; 
     }
 
-#text-area-2 {
+#text-area-2, .mensagem {
     background: white;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
     background-repeat: no-repeat;
@@ -51,82 +44,33 @@ main {
     color: #0A3871;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
-    }
-
-.mensagem {
-    background: white;
-    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
     }
 
 .mensagem:focus {
     outline: none; 
     }
 
-#botao1 {
+#botao1, #botao2 {
     display: flex;
     margin-left: 18px;
-    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Criptografar-blue.png');
-    background-size: cover;
     border: royalblue;
 }
 
+#botao1 {
+    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Encriptar-preenchimento-transparente-contorno-azul.png');
+    background-size: contain;
+}
+
 #botao2 {
-    display: flex;
-    margin-left: 18px;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/Button-Descriptografar-preenchimento-transparente-contorno-azul.png');
     background-size: cover;
-    border: royalblue;
 }
 
 .informacao {
     color: #495057;
     font-size: 18px;
 }
-
-
-/*
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-        
-header {
-    text-align: center;
-    padding: 20px;
-}
-        
-#header-image {
-    max-width: 100%;
-    height: auto;
-} */
-/*
-
-/* Estilo para as áreas de textos e botoões */
-/*
-textarea {
-    background-image: url('fundo.png');
-    background-size: cover;
-    padding: 10px;
-    border: none;
-}
-/*
-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-
-    */    
+  
 /* Estilo para dispositivo móvel */
 @media screen and (max-widht: 400px) {
     /* Ajustar estilo para dispositivo móvel aqui */
