@@ -42,6 +42,10 @@ main {
         outline: none; 
     }
 
+    .mensagem {
+        background: white;
+        background-image: assetsChallenge1;
+    }
 
 body {
     font-family: Arial, sans-serif;
