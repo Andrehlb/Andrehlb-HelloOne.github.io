@@ -42,7 +42,7 @@ main {
         outline: none; 
     }
 
-.text-area-2 {
+#text-area-2 {
     background: white;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
     background-repeat: no-repeat;
