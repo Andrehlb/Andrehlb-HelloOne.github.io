@@ -49,9 +49,24 @@ main {
     border: none;
     border-radius: 24px;
     color: #0A3871;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
     }
 
+.mensagem:focus {
+    outline: none; 
+    }
 
+.botao1 {
+    display: flex;
+    margin-left: 18px;
+}
+
+.botao2 {
+    display: flex;
+    margin-left: 18px;
+}
 /*
 body {
     font-family: Arial, sans-serif;
