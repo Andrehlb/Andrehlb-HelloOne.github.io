@@ -11,7 +11,8 @@
     margin-left: 10px;
     padding-top: 10px;
 /*    width: 2%; */
-    width: 20%;
+    width: 80%; /* Alterção do valor para se adequar ao meu design */
+    height: auto; /* Para manter a proporção da imagem */
 }
 
 main {
@@ -71,6 +72,11 @@ main {
 
 /* Estilo para dispositivo móvel */
 @media screen and (max-widht: 400px) {
+
+    .logoAlura {
+        width: 50px; /* Alterção do valor para se adequar ao meu design */
+    }
+
     main {
         flex-direction: column;
         margin-left: 10;
