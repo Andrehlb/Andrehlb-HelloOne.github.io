@@ -96,7 +96,12 @@ main-title {
 
     main {
         flex-direction: column;
-        margin-left: 10;
+        align-items: center; /* vai centralizar horizontalmente o texto (o conteúdo flex) */
+        justify-content: center; /* vai centralizar verticalmente o texto (o conteúdo flex) */
+    }
+
+    main h1 {
+        font-size: 40px;
     }
 
     #text-area-1, #text-area-2 {
