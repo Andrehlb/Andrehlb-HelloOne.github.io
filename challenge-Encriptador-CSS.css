@@ -38,7 +38,7 @@ main {
 }
 
 ::placeholder { color: #0a3871; }
-    .text-area-2:focus {
+    #text-area-2:focus {
         outline: none; 
     }
 
