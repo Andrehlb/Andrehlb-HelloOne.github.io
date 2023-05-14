@@ -42,9 +42,9 @@ main {
         outline: none; 
     }
 
-    .mensagem {
-        background: white;
-        background-image: assetsChallenge1;
+.mensagem {
+    background: white;
+    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
     }
 
 body {
