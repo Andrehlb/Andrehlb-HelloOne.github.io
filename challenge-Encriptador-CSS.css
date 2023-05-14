@@ -32,17 +32,17 @@ main {
 
 .text-area-2 {
     border: none;
-    color: #0a3799;
+    color: #0a3871;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
-::placeholder { color: #0a3799; }
+::placeholder { color: #0a3871; }
     .text-area-2:focus {
         outline: none; 
     }
 
-.mensagem {
+.text-area-2 {
     background: white;
     background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pessoa-lupa-diamante.png');
     background-repeat: no-repeat;
