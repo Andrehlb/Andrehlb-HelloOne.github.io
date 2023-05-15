@@ -38,6 +38,8 @@ main-title {
     font-size: 2vw;
     text-align: center;
     width: 100%;
+    color: white;
+    font-weight: bold;
 }
 
 #text-area-1, #text-area-2 {
