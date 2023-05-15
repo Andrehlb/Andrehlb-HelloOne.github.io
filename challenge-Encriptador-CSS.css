@@ -14,6 +14,7 @@ header {
     justify-content: space-between;
     background: #0A3871;
     height: 80px;
+    min-height: 120px; /* Para manter o tamanho do header mesmo quando o texto for muito grande */
     width: 100%;
 }
 
