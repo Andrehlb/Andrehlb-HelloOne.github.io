@@ -76,6 +76,7 @@ main-title {
     border: royalblue;
     align-self: flex-end;
     background-size: cover;
+    min-width: 100px;
 }
 
 #botao1 {
