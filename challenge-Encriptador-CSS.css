@@ -28,6 +28,7 @@ header {
 /*    width: 2%; */
     width: 20px; /* Alterção do valor para se adequar ao meu design */
     height: auto; /* Para manter a proporção da imagem */
+    z-index: 1; /* imagem do logo aparecerá sempre em cima */
 }
 
 main {
