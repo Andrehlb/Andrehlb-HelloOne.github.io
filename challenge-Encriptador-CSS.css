@@ -35,8 +35,13 @@ main {
     margin-left: 80px;
 }
 
-main-title {
-    font-size: 2vw;
+body {
+    font-size: 1em; /* tamanho base, normalmente 16 px */
+}
+
+#main-title {
+    /* font-size: 2vw; */ /* acompanha o redimensionamento da página */
+    font-size: 2em; /* duas vezes o tamanho base */
     font-family: 'Sen', sans-serif;
     /* font-size: 20px; */
     line-height: 1.5;
