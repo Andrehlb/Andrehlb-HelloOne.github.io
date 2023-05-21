@@ -48,8 +48,11 @@ body {
     letter-spacing: 0.05em;
     text-align: center;
     width: 100%;
-    color: white;
+    color: floralwhite;
+    /* color: white; */
     font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #text-area-1, #text-area-2 {
