@@ -8,6 +8,7 @@
 }
 
 header {
+    position: relative;
     display: flex;
     flex-direction: column; 
     align-items: center; /* vai centralizar o texto */
@@ -40,6 +41,9 @@ body {
 }
 
 #main-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     /* font-size: 2vw; */ /* acompanha o redimensionamento da página */
     font-size: 2em; /* duas vezes o tamanho base */
     font-family: 'Sen', sans-serif;
