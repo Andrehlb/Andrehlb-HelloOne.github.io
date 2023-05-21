@@ -43,8 +43,20 @@ body {
     font-size: 1em; /* tamanho base, normalmente 16 px */
 }
 
-#main-title {
+.title-container {
+    padding-left: 50px;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-title {
+    /* position: absolute; removido */
     /* top: 50%; removido */
     /* transform: translateY(-50%); removido */
     /* font-size: 2vw; */ /* acompanha o redimensionamento da página */
