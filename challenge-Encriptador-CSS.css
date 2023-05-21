@@ -64,6 +64,9 @@ body {
     /* Adicionando animação na palavra "Personalizada" */
 
     animation: fade-in-out 2s infinite;
+
+    max-width: 75% !important;
+    overflow: hidden; /* hide oculta qualquer coisa que excede o limite */
 }
 
 /* Vou definir abaixo a animação fade in e out no título para alternar entre 1 (total/te visível) e 0 (completa/te transparente) */
