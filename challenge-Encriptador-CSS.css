@@ -60,6 +60,19 @@ body {
     font-weight: bold;
     /* margin-top: 2em; removido */
     /* margin-bottom: 2em; removido */
+
+    /* Adicionando animação na palavra "Personalizada" */
+
+    animation: fade-in-out 2s infinite;
+}
+
+/* Vou definir abaixo a animação fade in e out no título para alternar entre 1 (total/te visível) e 0 (completa/te transparente) */
+
+@keyframes fade-in-out {
+    0% { opacity: 1; }
+    45% { opacity: 1; }
+    55% { opacity: 1; }
+    100% { opacity: 1; }
 }
 
 #text-area-1, #text-area-2 {
