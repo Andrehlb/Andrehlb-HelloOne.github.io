@@ -59,3 +59,18 @@ function copyToClipboard() {
     document.body.removeChild(el);
     alert('Texto copiado para a área de transferência!');
 }
+
+// Animação de criptografia
+
+function animateTitle() {
+    const titleElement = document.getElementById('main-title');
+    const originalTitle = titleElement.textContent;
+    const encryptedTitles = [encrypt("Personalizada"), encrypt(encrypt("Personalizada")), encrypt(encrypt(encrypt("Personalizada")))];
+    let currentTitleIndex = 0;
+
+    setInterval(() => {
+        const newTitle = originalTitle.replace("Personalizada", encryptedTitles[currentTitleIndex]);
+        titleElement.textContent = newTitle;
+        currentTitleIndex = (currentTitleIndex + 1) % encryptedTitles.length;
+    }, 2000); // vai alterar o título a cada 2 segundos
+}
