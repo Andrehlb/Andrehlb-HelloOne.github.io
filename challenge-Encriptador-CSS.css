@@ -11,7 +11,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column; 
-    align-items: center; /* vai centralizar o texto */
+    align-items: center; /* vai centralizar o texto, i. é., alinhará os elementos filhos do container */
     justify-content: space-between;
     background: #0A3871;
     height: 80px;
@@ -42,8 +42,8 @@ body {
 
 #main-title {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    /* top: 50%; removido */
+    /* transform: translateY(-50%); removido */
     /* font-size: 2vw; */ /* acompanha o redimensionamento da página */
     font-size: 2em; /* duas vezes o tamanho base */
     font-family: 'Sen', sans-serif;
@@ -55,8 +55,8 @@ body {
     color: floralwhite;
     /* color: white; */
     font-weight: bold;
-    margin-top: -6em;
-    margin-bottom: 2em;
+    /* margin-top: 2em; removido */
+    /* margin-bottom: 2em; removido */
 }
 
 #text-area-1, #text-area-2 {
