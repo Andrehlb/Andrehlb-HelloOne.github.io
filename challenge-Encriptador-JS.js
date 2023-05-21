@@ -74,3 +74,6 @@ function animateTitle() {
         currentTitleIndex = (currentTitleIndex + 1) % encryptedTitles.length;
     }, 2000); // vai alterar o título a cada 2 segundos
 }
+
+window.onload = animateTitle; // chama a função animateTitle quando a página carregar (assim espero hahaha)
+
