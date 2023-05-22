@@ -10,8 +10,8 @@
 header {
     position: relative;
     display: flex;
-    grid-template-columns: auto 1fr;
-    flex-direction: row; /* flex-direction: column; */
+    /* grid-template-columns: auto 1fr; */
+    flex-direction: column; /* flex-direction: row; */
     align-items: center; /* vai centralizar o texto, i. é., alinhará os elementos filhos do container */
     /* justify-content: space-between; replaced */
     /* justify-content: center; replaced */
