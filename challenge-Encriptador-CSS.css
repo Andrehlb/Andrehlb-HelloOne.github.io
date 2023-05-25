@@ -2,9 +2,20 @@
     background: #e5e5e5;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-/*    font-size: 32px; */
-    font-size: 2vw;
+    font-size: 32px;
+    /* font-size: 2vw; */
     line-height: 150%;
+}
+
+.logoAlura {
+    align-self: flex-start; /* vai alinhar a imagem a esquerda */
+    margin-right: 10px;
+    /* margin-left: 10px; */
+    padding-top: 10px;
+/*    width: 2%; */
+    width: 20px; /* Alterção do valor para se adequar ao meu design */
+    height: auto; /* Para manter a proporção da imagem */
+    z-index: 1; /* imagem do logo aparecerá sempre em cima */
 }
 
 header {
@@ -24,16 +35,7 @@ header {
     width: 100%;
 }
 
-.logoAlura {
-    align-self: flex-start; /* vai alinhar a imagem a esquerda */
-    margin-right: 10px;
-    /* margin-left: 10px; */
-    padding-top: 10px;
-/*    width: 2%; */
-    width: 20px; /* Alterção do valor para se adequar ao meu design */
-    height: auto; /* Para manter a proporção da imagem */
-    z-index: 1; /* imagem do logo aparecerá sempre em cima */
-}
+
 
 main {
     display: flex;
