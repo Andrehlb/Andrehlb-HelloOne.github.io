@@ -174,9 +174,5 @@ body {
         font-size: 40px;
     }
 
-    #text-area-1, #text-area-2 {
-        font-size: 1.5vw;
-        margin-top: 20px;
     }
     /* Ajustar estilo para dispositivo móvel aqui */
-}
