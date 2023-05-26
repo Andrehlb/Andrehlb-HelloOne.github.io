@@ -55,7 +55,10 @@ main {
     outline: none;
 }
 
-
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
 
 header {
     position: relative;
@@ -74,106 +77,8 @@ header {
     width: 100%;
 }
 
-
-
-
-
 body {
     font-size: 1em; /* tamanho base, normalmente 16 px */
 }
 
-.title-container {
-    padding-left: 50px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#main-title {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2vw; /* acompanha o redimensionamento da página */
-    /* padding-left: 30px; */
-    /* font-size: 2em; /* duas vezes o tamanho base */
-    font-family: 'Sen', sans-serif;
-    /* font-size: 20px; */
-    line-height: 1.5;
-    letter-spacing: 0.05em;
-    text-align: center;
-    /* width: 100%; */
-    color: floralwhite;
-    /* color: white; */
-    background-color: #0A3871;
-    font-weight: bold;
-    /* margin-top: 2em; removido */
-    /* margin-bottom: 2em; removido */
-
-    /* Adicionando animação na palavra "Personalizada" */
-
-    animation: fade-in-out 2s infinite;
-
-    max-width: 75% !important;
-    overflow: hidden; /* hide oculta qualquer coisa que excede o limite */
-}
-
-/* Vou definir abaixo a animação fade in e out no título para alternar entre 1 (total/te visível) e 0 (completa/te transparente) */
-
-@keyframes fade-in-out {
-    0% { opacity: 1; }
-    45% { opacity: 1; }
-    55% { opacity: 1; }
-    100% { opacity: 1; }
-}
-
-#botao1, #botao2 {
-    margin-left: 18px;
-    border: royalblue;
-    align-self: flex-end;
-    background-size: cover;
-    min-width: 100px;
-}
-
-#botao1 {
-    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pilula-blueroyal.png');
-    background-size: contain; /* imagem de fundo cobre todo o espaço do botao1*/
-    background-position: center; /* imagem de fundo centralizada no botao1*/
-    background-repeat: no-repeat; /* imagem de fundo não se repete no botao1*/
-
-} 
-
-#botao2 {
-    background-image: url('https://raw.githubusercontent.com/Andrehlb/andrehlb-helloone.github.io/main/assetsChallenge1/pilula-blueGray.png');
-    background-size: 100% 100%; /* imagem de fundo cobre todo o espaço do botao1*/;
-    background-position: center; /* imagem de fundo centralizada no botao1*/
-} 
-
-.informacao {
-    color: #495057;
-    font-size: 18px;
-}
-
-/* Estilo para dispositivo móvel */
-@media screen and (max-widht: 400px) {
-
-    .logoAlura {
-        width: 50px; /* Alterção do valor para se adequar ao meu design */
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center; /* vai centralizar horizontalmente o texto (o conteúdo flex) */
-        justify-content: center; /* vai centralizar verticalmente o texto (o conteúdo flex) */
-    }
-
-    main h1 {
-        font-size: 40px;
-    }
-
-    }
     /* Ajustar estilo para dispositivo móvel aqui */
