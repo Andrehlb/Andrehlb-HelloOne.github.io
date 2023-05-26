@@ -8,14 +8,25 @@
 }
 
 .logoAlura {
+    position: relative;
     align-self: flex-start; /* vai alinhar a imagem a esquerda */
+    background-color: chartreuse;
     margin-right: 10px;
     /* margin-left: 10px; */
     padding-top: 10px;
 /*    width: 2%; */
     width: 20px; /* Alteração do valor para se adequar ao meu design */
     height: auto; /* Para manter a proporção da imagem */
-    z-index: 1; /* imagem do logo aparecerá sempre em cima */
+    z-index: 999; /* imagem do logo aparecerá sempre em cima */
+}
+
+.title {
+    background-color: #0A3871;
+}
+
+h1 {
+    color: floralwhite;
+    margin-left: 90px;
 }
 
 main {
