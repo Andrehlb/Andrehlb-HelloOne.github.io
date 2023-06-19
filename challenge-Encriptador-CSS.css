@@ -81,7 +81,8 @@ header {
     /* justify-content: space-between; replaced */
     /* justify-content: center; replaced */
     justify-content: flex-end;
-    /* justify-content: flex-start; */
+    /* justify-content: flex-start;
+    Flex items are packed toward the start of the flex-direction. */
     background: #0A3871;
     height: 80px;
     min-height: 120px; /* Para manter o tamanho do header mesmo quando o texto for muito grande */
