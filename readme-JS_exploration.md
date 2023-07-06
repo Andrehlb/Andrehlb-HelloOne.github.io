@@ -1,4 +1,7 @@
-# Trabalhando em JavaScript
+<h1> Trabalhando em JavaScript </h1>
+
+<h2> Variáveis e Operações Básicas </h2>
+  
 
 Abaixo estão linhas de código em JavaScript que demonstra de forma simples como trabalhar com variáveis e realizar operações básicas. Vejamos o que cada parte do código faz:
 
