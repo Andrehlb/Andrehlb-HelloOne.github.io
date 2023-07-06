@@ -1,4 +1,4 @@
-# Trabalhando com Variáveis e operações básicas em JavaScript
+# Trabalhando em JavaScript
 
 Abaixo estão linhas de código em JavaScript que demonstra de forma simples como trabalhar com variáveis e realizar operações básicas. Vejamos o que cada parte do código faz:
 
@@ -44,4 +44,4 @@ Para visualizar este arquivo no VSCode:
 2. Salve o arquivo com a extensão `.md` (por exemplo, `README.md`).
 3. Pressione `Ctrl+Shift+V` (ou `Cmd+Shift+V` no macOS) para visualizar o arquivo em formato Markdown.
 
-Espero que isso ajude!
+Espero que possa ser útil para quem está começando com a linguagem JS!
