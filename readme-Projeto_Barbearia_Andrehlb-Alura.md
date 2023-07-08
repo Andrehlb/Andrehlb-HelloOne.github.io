@@ -1,6 +1,6 @@
-<h1> Projeto Barbearia Andrehlb-Alura </h1>
+<h1> Projeto de WebSite Barbearia Andrehlb-Alura sem frameworks </h1>
 
-<h2> Este projeto é um site para a Barbearia Andrehlb-Alura. O site é construído usando HTML e CSS. </h2>
+<h2> Este projeto é um site para a Barbearia Andrehlb-Alura. <br> O site é construído usando HTML e CSS e Javascript sem o uso de frameworks </h2>
 
 ## Estrutura do HTML
 
