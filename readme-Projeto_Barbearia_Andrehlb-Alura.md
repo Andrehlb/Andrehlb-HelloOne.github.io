@@ -29,7 +29,7 @@ O HTML do site é estruturado da seguinte maneira:
 
 ## Código Fonte
 
-O código HTML para este projeto pode ser encontrado [Barbearia  Andrhlb Alura](https://github.com/Andrehlb/andrehlb-helloone.github.io/blob/32a375cb3ba82b1b57504caf611eaf5b4aed90b1/indexBarbearia-Andrehlb-Alura.html).
+O código HTML para este projeto pode ser encontrado [Barbearia  Andrhelb Alura](https://github.com/Andrehlb/andrehlb-helloone.github.io/blob/32a375cb3ba82b1b57504caf611eaf5b4aed90b1/indexBarbearia-Andrehlb-Alura.html).
 
 ## CSS
 
