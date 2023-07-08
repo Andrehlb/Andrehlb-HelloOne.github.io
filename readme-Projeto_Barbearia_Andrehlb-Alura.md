@@ -27,6 +27,10 @@ O HTML do site é estruturado da seguinte maneira:
 - `src`: Usado para especificar a fonte de uma imagem.
 - `alt`: Usado para fornecer texto alternativo para imagens, para o caso de a imagem não poder ser exibida.
 
+## Código Fonte
+
+O código HTML para este projeto pode ser encontrado [Barbearia  Andrhlb Alura](https://github.com/Andrehlb/andrehlb-helloone.github.io/blob/32a375cb3ba82b1b57504caf611eaf5b4aed90b1/indexBarbearia-Andrehlb-Alura.html).
+
 ## CSS
 
 O site utiliza um arquivo CSS externo chamado `styleBarbeariaAndrehlb-Alura.css` para estilizar os elementos HTML. O CSS é usado para definir a aparência do site, incluindo cores, fontes, layout e muito mais.
