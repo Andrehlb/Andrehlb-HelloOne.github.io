@@ -2,13 +2,25 @@ body {
 
 }
 
-.principal{
+#banner {
+    width:100%;
+}
+
+.principal-Sobre-Missao-Localizacao-Oferecemos {
     background: #CCCCCC;
     padding: 30px;
 }
 
 .titulo-principal {
     padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
+
+p {
+    text-align: center;
 }
 
 .itens {
