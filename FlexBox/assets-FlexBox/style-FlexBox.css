@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+display: flex;
+list-style: none;
+width: 35vw;
+justify-content: space-around;
+}
+
+.flex-container {
+width: 100vw;
+margin: auto;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.card {
+width: 10vw;
+margin: 5px;
+padding: 5px;
+}
+
+.card p {
+font-size: 1.2rem;
+}
+
+.card.promo {
+}
